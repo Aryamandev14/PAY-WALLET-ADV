@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://221210025:aryaman14%40@cluster0.x4x702w.mongodb.net/paywal");
+mongoose.connect("mongodb+srv://devaryaman4:aryaman15@cluster0.irulq.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0");
 
 const userSchema = new mongoose.Schema({
     username: { type: String, required: true, unique: true, trim: true, lowercase: true },
