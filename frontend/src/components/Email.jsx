@@ -13,7 +13,7 @@ export const UserEmail = () => {
                     return;
                 }
 
-                const response = await axios.get('http://localhost:3000/api/v1/user/me', {
+                const response = await axios.get('https://pay-wallet-adv-1.onrender.com/api/v1/user/me', {
                     headers: {
                         Authorization: token
                     }
