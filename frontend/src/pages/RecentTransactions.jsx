@@ -15,7 +15,7 @@ const RecentTransactions = () => {
     try {
       setLoading(true);
       const token = localStorage.getItem("token");
-      const response = await axios.get("http://localhost:3000/api/v1/account/transactionsrecent", {
+      const response = await axios.get("https://pay-wallet-adv-1.onrender.com/api/v1/account/transactionsrecent", {
         headers: {
           Authorization: `Bearer ${token}`
         }
