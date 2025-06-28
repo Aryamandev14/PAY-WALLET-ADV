@@ -4,6 +4,7 @@
  -->
 
 
+  const DirectionalArrows = () => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     fill="none"
@@ -21,4 +22,6 @@
     <path d="M4 17h16" stroke="#6b7280" strokeWidth={2} />
     <path d="M4 7h16" stroke="#6b7280" strokeWidth={2} />
   </svg>
+);
+
 
