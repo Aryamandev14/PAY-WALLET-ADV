@@ -1,4 +1,4 @@
-
+LINK : https://pay-wallet-advfront.onrender.com/
 
 A full-stack digital wallet application built using the **MERN** stack (MongoDB, Express.js, React.js, Node.js) and **TailwindCSS**, designed to simulate core features of a platform like Paytm. It supports secure user authentication, wallet operations, transaction history, and basic fraud detection logic.
 
@@ -17,7 +17,7 @@ A full-stack digital wallet application built using the **MERN** stack (MongoDB,
 - Deposit & withdraw **virtual cash**
 - **P2P transfers** between users
 - Detailed **transaction history**
-- Support for **currency abstraction** (multiple digital currencies – optional)
+
 
 ### 3. 🧮 Transaction Processing & Validation
 - Ensures **atomicity**: debits and credits handled securely
